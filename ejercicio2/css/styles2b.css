@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+	font-family: MrRobot;
+	color: red;
+	text-align: center;
+	font-size: 50px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+
+#next a:hover {
+	color: red;
+	font-size: 60px;
+	font-family: MrRobot;
+	font-weight: lighter;
+}
+
+#next a {
+	color: black;
+	font-size: 60px;
+	font-family: MrRobot;
+	font-weight: lighter;
+}
+
+h3, p, a {
+	font-family: 'courier new';
+	color: black;
+	text-align: center;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h2 {
+	font-family: 'courier new';
+	color: grey;
+	text-align: center;
+	font-size: 9px;
+	font-weight: lighter;
+}
+
+p{
+	font-size: 10px;
+}
+
+a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+}
+
+a:hover {
+	font-weight: bold;
+	color: black;
+}
+
+#header {
+	background-color: white;
+}
+
+#next {
+	position:absolute; 
+	top:270px; 
+	right:20px;
+}
+
+#section {
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-right: -5px;
+}
+
+#section img {
+    width: 100%;
+}
+
+#menu {
+	background-color: red;
+}
+
+#navigation{
+	padding: 4px;
+	text-align: center;
+}
+
+#navigation li{
+	display: inline;
+	margin: 0px 7px;
+}
+
+.on {
+	color: black;
+	font-weight: bold;
+}
+
+#footer {
+	background-color: white;
+}
+

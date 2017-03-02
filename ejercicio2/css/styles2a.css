@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+}
+
+#container {
+    background-color: white;
+}
+
+#header {
+	position: relative;
+  	height: auto;
+    overflow: auto;
+    background-color: #333333;
+    color: white;
+}
+
+#menu {
+	height: auto;
+    overflow: auto;
+	background-color: black;
+	padding: 3px 0px 3px 0px;
+}
+
+#navigation li{
+	display: inline;
+	margin: 0px 7px;
+	float: left;
+}
+#navigation {
+	margin: 5px;
+	padding: 0px 0px 0px 10px;
+	float: left;
+}
+
+a{
+	color: grey;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+h1 {
+	font-family: "Arial", serif;
+	margin: 20px;
+}
+
+h2 {
+	font-family: "Arial", serif;
+	margin: 5px;
+}
+
+h3 {
+	font-family: "Arial", serif;
+	margin:5px;
+}
+
+p{
+	color: grey;
+	font-size: 11px;
+	margin:5px;
+}
+
+.on {
+	color: white;
+	background-color: #4d4d4d;
+	padding: 4px;
+	border-radius: 2px;
+}
+
+form {
+    margin: 5px;
+    float: right;
+    padding: 0px 10px 0px 0px;
+}
+
+.button {
+	background-color: grey; /* no me funciona */
+}
+
+#maincontent {
+    background-color: #f5f5f5;
+	padding: 14px;
+	margin: 20px;
+	width: 810px;
+	box-shadow: inset 1px 1px 4px grey;
+	border-radius: 4px;
+	float: left;
+}
+
+#readmore {
+	width: 120px;
+	padding: 5px;
+	margin: 10px 10px 10px 5px;
+	text-align: center;
+	box-shadow: 0px 0px 2px grey;
+}
+
+#sidebar {
+	float: right;
+	margin: 10px;
+	width: 300px;
+	display: inline;
+}
+
+#caja {
+	width: 60px;
+	margin: 7px;
+	padding: 30px;
+	background-color: #DCDCDC;
+	border-style: solid;
+	border-color: white;
+	box-shadow: inset 0px 0px 4px grey;
+	box-shadow: 0px 0px 2px grey;
+	display: inline-block;
+}
+
+#heading {
+	float: left;
+	margin: 0 0 1em 1em;
+	width: 400px;
+}
+
+#widget {
+	float: right;
+	margin: 0 0 1em 1em;
+	width: 308px;
+	clear: right;
+}
+
+#navigation2 {
+	padding: 0px 0px 0px 20px;
+}
+
+#footer {
+	position: relative;
+  	height: auto;
+    overflow: auto;
+    background-color: #DCDCDC;
+    clear: both;
+    padding: 10px;
+}
