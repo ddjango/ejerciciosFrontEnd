@@ -34,7 +34,7 @@ body {
 }
 #navigation {
 	margin: 5px;
-	padding: 0px 0px 0px 10px;
+	padding-left: 10px;
 	float: left;
 }
 
@@ -49,14 +49,9 @@ h1 {
 	margin: 20px;
 }
 
-h2 {
+h2, h3 {
 	font-family: "Arial", serif;
 	margin: 5px;
-}
-
-h3 {
-	font-family: "Arial", serif;
-	margin:5px;
 }
 
 p{
@@ -119,7 +114,7 @@ form {
 	display: inline-block;
 }
 
-#heading {
+.heading {
 	float: left;
 	margin: 0 0 1em 1em;
 	width: 400px;

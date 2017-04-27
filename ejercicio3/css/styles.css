@@ -8,6 +8,8 @@ body {
 
     #slides {
       margin-top: -40px;
+      padding: 0px 30px;
+      position: relative;
 
     }
 
@@ -16,17 +18,15 @@ body {
     }
 
     #slides .slidesjs-previous {
-      margin-right: 5px;
       position:absolute; 
-      top:320px; 
-      left:120px;
+      top:44%; 
+      left:0px;
     }
 
     #slides .slidesjs-next {
-      margin-right: 5px;
-      position: absolute; 
-      top:320px; 
-      right:120px;
+      position:absolute; 
+      top:44%; 
+      right:0px;
     }
 
     .slidesjs-pagination {
